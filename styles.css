@@ -2,11 +2,11 @@ body {
   background-color: #41414f;
   font-family: "Indie Flower", cursive;
   color: #57f9c3;
+  text-align: center;
 }
 
 .container {
   margin: 10px auto 70px;
-  text-align: center;
   width: 70%;
 }
 
@@ -16,29 +16,54 @@ h1 {
   font-family: "Lobster", cursive;
   text-shadow: 2px 2px rgb(37, 37, 37);
   margin: 50px auto 20px;
+  font-weight: 900;
 }
 
 /* Dice Division */
-.dice {
-  display: inline-block;
-}
-
 p {
   font-size: 2rem;
 }
 
-.img1,
-.img2 {
+img {
   width: 80%;
+}
+
+.dice-left {
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.dice-right {
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 /* Footer Section */
 footer {
   text-align: center;
+  margin: 10% auto 3%;
 }
 
 .footer-link {
   text-decoration: none;
   font-family: "Indie Flower", cursive;
   color: aliceblue;
+}
+
+a:hover {
+  color: aquamarine;
+}
+
+.footer-p {
+  font-size: 1.1rem;
+}
+
+.footer-p:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
