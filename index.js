@@ -1,7 +1,7 @@
 // Alerts user once
 var alerted = localStorage.getItem("alerted") || "";
 if (alerted != "yes") {
-  alert("Refesh page to Retry");
+  alert("Refesh page to Roll the Dice again");
   localStorage.setItem("alerted", "yes");
 }
 // Generate Random Numbers
