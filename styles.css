@@ -1,0 +1,44 @@
+body {
+  background-color: #41414f;
+  font-family: "Indie Flower", cursive;
+  color: #57f9c3;
+}
+
+.container {
+  margin: 10px auto 70px;
+  text-align: center;
+  width: 70%;
+}
+
+/* Heading */
+h1 {
+  font-size: 8rem;
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px rgb(37, 37, 37);
+  margin: 50px auto 20px;
+}
+
+/* Dice Division */
+.dice {
+  display: inline-block;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.img1,
+.img2 {
+  width: 80%;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  color: aliceblue;
+}
