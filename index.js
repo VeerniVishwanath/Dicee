@@ -1,9 +1,11 @@
 // Alerts user once
-var alerted = localStorage.getItem("alerted") || "";
-if (alerted != "yes") {
-  alert("Refesh page to Roll the Dice again");
-  localStorage.setItem("alerted", "yes");
-}
+window.onload = function() {
+  var alerted = sessionStorage.getItem("alerted") || "";
+  if (alerted != "yes") {
+    alert("Refesh page to Roll the Dice again");
+    sessionStorage.setItem("alerted", "yes");
+  }
+};
 // Generate Random Numbers
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
